@@ -1,9 +1,10 @@
-import {View, Text} from 'react-native';
+import { Header } from '@/components/Header';
+import { View } from 'react-native';
 
 export default function Home() {
-    return (
-        <View className="bg-slate-900 flex-1">
-            <Text className="text-white">Hola Gutin</Text>
-        </View>
-    )
+  return (
+    <View className="pt-8">
+      <Header title="Faça seu pedido" />
+    </View>
+  );
 }
